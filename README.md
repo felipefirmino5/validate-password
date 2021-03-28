@@ -56,7 +56,7 @@ $ mvn test
 curl -X POST "http://localhost:8080/valida" -H "accept: */*" -H "Content-Type: application/json" -d "{ \"senha\": \"AAAbbbCc\"}"
 
 # Swagger
-# acesse <http://localhost:8080/swagger-ui.html>
+ acesse <http://localhost:8080/swagger-ui.html>
 # informe a senha no objeto
  {
   "senha": "AbTp9!fok"
@@ -79,7 +79,7 @@ curl -X POST "http://localhost:8080/valida" -H "accept: */*" -H "Content-Type: a
 ![alt text](https://github.com/felipefirmino5/validate-password/blob/main/assets/swagger_result.png?raw=true)
 
 
-###🕵🏻‍♂️ Detalhes da Implementação
+### 🕵🏻‍♂️ Detalhes da Implementação
 ```bash
 # Regras definidas: 1 - Nove ou mais caracteres
 #          2 - Ao menos 1 dígito
