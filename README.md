@@ -1,5 +1,5 @@
 ### 🌍 Este projeto:
-Tem como finalidade a validação de senhas do usuário por meio de API REST com uma operação POST.
+Tem como finalidade a validação de senhas do usuário por meio de API REST.
 
 ### 🚀 Como Iniciar:
 Antes de começar, você vai precisar ter instalado em sua máquina as seguintes ferramentas:
@@ -57,7 +57,7 @@ $ mvn test
 ![alt text](https://github.com/felipefirmino5/validate-password/blob/main/assets/swagger.png?raw=true)
 
 ```bash
-# O Resultado será exibido no objeto
+# O Resultado será:
 {
   "retorno": true
 }
