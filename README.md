@@ -22,7 +22,24 @@ $ cd validate-password
 $ mvn clean install
 
 # Execute a aplicação em modo de desenvolvimento
-$ acesse a pasta target(Gerada após execução do comando acima)
+$ acesse a pasta target(Gerada após execução do comando acima) e execute o comando  java -jar validador-0.0.1.jar 
 
 # O servidor inciará na porta:8080- acesse <http://localhost:8080/swagger-ui.html>
 ```
+### 🏃‍♀️ Rodando os testes de integração
+```bash
+# No Diretório do projeto execute:
+$ mvn test
+
+# O Resultado esperado:
+```
+![alt text](https://github.com/felipefirmino5/validate-password/blob/main/assets/test_integracao.png?raw=true)
+
+### 🏃‍♀️ Rodando os testes unitários
+```bash
+# No Diretório do projeto execute:
+$ mvn test
+
+# O Resultado esperado:
+```
+![alt text](https://github.com/felipefirmino5/validate-password/blob/main/assets/test_unit.png?raw=true)
