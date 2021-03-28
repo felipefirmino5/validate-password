@@ -30,7 +30,7 @@ public class ValidatorPasswordRegexImpl implements ValidatorPassword {
 
 
     @Override
-    public Boolean validatePassword(Password value) {
+    public boolean validatePassword(Password value) {
         if(value!=null && value.getSenha()!=null && !value.getSenha().contains(" ")){
             Matcher matcherRepeticao = patternRepeet.matcher(value.getSenha().toLowerCase());
             Matcher matcherValidacao = patternValidate.matcher(value.getSenha());
